@@ -1,0 +1,7 @@
+body {
+    background-color: dimgray;
+}
+section.datospersonales div{
+    display: flex;
+    flex-direction: row;
+}
