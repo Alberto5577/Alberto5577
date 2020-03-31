@@ -1,7 +1,35 @@
 body {
     background-color: dimgray;
 }
+h1 {
+    text-align: center;
+}
 section.datospersonales div{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+}
+section.datospersonales p{
+    margin-right: 40px;
+}
+section.idiomas div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+section.experiencia p{
+    margin-left: 30px;
+}
+section.another div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.img{
+    margin-top: 22px;
+}
+div.uno p{
+    margin-right: 100px;
+    text-align: justify;
 }
